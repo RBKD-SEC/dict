@@ -12,20 +12,20 @@
 
 ## 快速开始（实战首选）
 
-根目录的 `top*` 字典是按实战高频度排序的综合性字典，**直接拿来用**：
+每个分类目录下的 `top*.txt` 是按实战高频度排序的综合性字典，**直接拿来用**：
 
 ```bash
 # 目录扫描 — 最常用100个路径
-ffuf -u http://target.com/FUZZ -w path-top100.txt
+ffuf -u http://target.com/FUZZ -w path/top100.txt
 
 # 目录扫描 — 最常用1000个路径（更全面）
-ffuf -u http://target.com/FUZZ -w path-top1000.txt
+ffuf -u http://target.com/FUZZ -w path/top1000.txt
 
 # 账号爆破 — 最常用100个用户名 + 100个密码
-hydra -L username-top100.txt -P password-top100.txt ssh://target.com
+hydra -L username/top100.txt -P password/top100.txt ssh://target.com
 
 # 账号爆破 — 常用500个（更全但慢）
-hydra -L username-top500.txt -P password-top500.txt ssh://target.com
+hydra -L username/top500.txt -P password/top500.txt ssh://target.com
 ```
 
 ## 目录结构
@@ -33,17 +33,44 @@ hydra -L username-top500.txt -P password-top500.txt ssh://target.com
 ```
 dict/
 |
-|-- 综合性字典（实战首选，按高频度排序）
-|   ├── username-top100.txt
-|   ├── username-top500.txt
-|   ├── password-top100.txt
-|   ├── password-top500.txt
-|   ├── path-top100.txt
-|   ├── path-top500.txt
-|   └── path-top1000.txt
+|-- username/               # 用户名字典
+|   ├── top100.txt          # 高频100（实战首选）
+|   ├── top500.txt          # 高频500
+|   ├── common.txt          # 通用账号
+|   ├── database.txt        # 数据库相关账号
+|   ├── security-tools.txt  # 安全工具默认账号
+|   ├── devops.txt          # 运维/部署相关账号
+|   ├── network-device.txt  # 网络设备默认账号
+|   └── china-systems.txt   # 国产系统默认账号
 |
-|-- 分类字典（按需精细使用）
-|   ├── username/           # 用户名字典
+|-- password/               # 密码字典
+|   ├── top100.txt          # 高频100（实战首选）
+|   ├── top500.txt          # 高频500
+|   ├── common.txt          # 通用弱密码
+|   ├── keyboard-pattern.txt    # 键盘序列密码
+|   └── china-default.txt       # 国产系统默认密码
+|
+|-- path/                   # 目录/路径字典
+|   ├── top100.txt          # 高频100（实战首选）
+|   ├── top500.txt          # 高频500
+|   ├── top1000.txt         # 高频1000
+|   ├── common.txt          # 通用路径
+|   ├── admin-panel.txt     # 后台面板路径
+|   ├── database-tool.txt   # 数据库管理工具路径
+|   ├── cms.txt             # CMS 特征路径
+|   ├── config-leak.txt     # 配置文件泄露路径
+|   ├── vcs.txt             # 版本控制泄露路径
+|   ├── springboot.txt      # SpringBoot 特征路径
+|   └── china-systems.txt   # 国产系统特征路径
+|
+|-- api/                    # API 端点字典
+|   ├── common.txt          # 通用 API 端点
+|   └── china-cloud.txt     # 国内云服务商 API
+|
+|-- backup/                 # 备份文件字典
+|   └── patterns.txt        # 备份文件命名模式
+|
+└── README.md
 |   │   ├── common.txt      # 通用账号
 |   │   ├── database.txt    # 数据库相关账号
 |   │   ├── security-tools.txt  # 安全工具默认账号
@@ -80,11 +107,11 @@ dict/
 
 | 场景 | 推荐字典 | 说明 |
 |------|----------|------|
-| 快速侦察 | `path-top100.txt` | 最快的路径发现 |
-| 标准扫描 | `path-top500.txt` | 平衡速度与覆盖 |
-| 深度扫描 | `path-top1000.txt` | 最全面的路径覆盖 |
-| 通用爆破 | `username-top100.txt` + `password-top100.txt` | 最快爆破 |
-| 深度爆破 | `username-top500.txt` + `password-top500.txt` | 更全面 |
+| 快速侦察 | `path/top100.txt` | 最快的路径发现 |
+| 标准扫描 | `path/top500.txt` | 平衡速度与覆盖 |
+| 深度扫描 | `path/top1000.txt` | 最全面的路径覆盖 |
+| 通用爆破 | `username/top100.txt` + `password/top100.txt` | 最快爆破 |
+| 深度爆破 | `username/top500.txt` + `password/top500.txt` | 更全面 |
 | 定向测试 | `username/china-systems.txt` + `password/china-default.txt` | 针对国产系统 |
 | SpringBoot | `path/springboot.txt` | actuator 等端点 |
 | 国产OA | `path/china-systems.txt` | 泛微/致远/通达等 |
@@ -95,10 +122,10 @@ dict/
 
 ```bash
 # 最常用 — 直接扫 top100
-ffuf -u http://target.com/FUZZ -w path-top100.txt
+ffuf -u http://target.com/FUZZ -w path/top100.txt
 
 # 更全面 — 扫 top1000
-ffuf -u http://target.com/FUZZ -w path-top1000.txt
+ffuf -u http://target.com/FUZZ -w path/top1000.txt
 
 # 针对国产 CMS
 ffuf -u http://target.com/FUZZ -w path/china-systems.txt
@@ -115,10 +142,10 @@ ffuf -u http://target.com/FUZZ -w admin-paths.txt
 
 ```bash
 # 最快 — top100
-hydra -L username-top100.txt -P password-top100.txt ssh://target.com
+hydra -L username/top100.txt -P password/top100.txt ssh://target.com
 
 # 深度 — top500
-hydra -L username-top500.txt -P password-top500.txt ssh://target.com
+hydra -L username/top500.txt -P password/top500.txt ssh://target.com
 
 # 针对国产系统
 hydra -L username/china-systems.txt -P password/china-default.txt ssh://target.com
