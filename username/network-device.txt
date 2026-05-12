@@ -1,0 +1,6 @@
+cisco
+cisco1
+huawei
+huawei1
+juniper
+juniper1
