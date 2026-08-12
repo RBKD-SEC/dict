@@ -21,75 +21,36 @@ hydra -L username/top500.txt -P password/top500.txt ssh://target.com
 ## 目录结构
 ```
 dict/
-|
 |-- username/               # 用户名字典
-|   ├── top100.txt          # 高频100（实战首选）
-|   ├── top500.txt          # 高频500
-|   ├── common.txt          # 通用账号
-|   ├── database.txt        # 数据库相关账号
-|   ├── security-tools.txt  # 安全工具默认账号
-|   ├── devops.txt          # 运维/部署相关账号
-|   ├── network-device.txt  # 网络设备默认账号
-|   └── china-systems.txt   # 国产系统默认账号
-|
 |-- password/               # 密码字典
-|   ├── top100.txt          # 高频100（实战首选）
-|   ├── top500.txt          # 高频500
-|   ├── common.txt          # 通用弱密码
-|   ├── keyboard-pattern.txt    # 键盘序列密码
-|   └── china-default.txt       # 国产系统默认密码
-|
 |-- path/                   # 目录/路径字典
-|   ├── top100.txt          # 高频100（实战首选）
-|   ├── top500.txt          # 高频500
-|   ├── top1000.txt         # 高频1000
-|   ├── common.txt          # 通用路径
-|   ├── admin-panel.txt     # 后台面板路径
-|   ├── database-tool.txt   # 数据库管理工具路径
-|   ├── cms.txt             # CMS 特征路径
-|   ├── config-leak.txt     # 配置文件泄露路径
-|   ├── vcs.txt             # 版本控制泄露路径
-|   ├── springboot.txt      # SpringBoot 特征路径
-|   └── china-systems.txt   # 国产系统特征路径
-|
 |-- api/                    # API 端点字典
-|   ├── common.txt          # 通用 API 端点
-|   └── china-cloud.txt     # 国内云服务商 API
-|
 |-- backup/                 # 备份文件字典
-|   └── patterns.txt        # 备份文件命名模式
-|
+|-- capabilities/           # v1 规范化能力目录（ Ticket 04 新增）
+|-- scripts/                # 生成器与门禁脚本
+|-- tests/fixtures/         # 测试夹具
+|-- LICENSE / NOTICE        # Apache-2.0 与来源声明
 └── README.md
-|   │   ├── common.txt      # 通用账号
-|   │   ├── database.txt    # 数据库相关账号
-|   │   ├── security-tools.txt  # 安全工具默认账号
-|   │   ├── devops.txt      # 运维/部署相关账号
-|   │   ├── network-device.txt  # 网络设备默认账号
-|   │   └── china-systems.txt   # 国产系统默认账号
-|   │
-|   ├── password/           # 密码字典
-|   │   ├── common.txt      # 通用弱密码
-|   │   ├── keyboard-pattern.txt  # 键盘序列密码
-|   │   └── china-default.txt     # 国产系统默认密码
-|   │
-|   ├── path/               # 目录/路径字典
-|   │   ├── common.txt      # 通用路径
-|   │   ├── admin-panel.txt # 后台面板路径
-|   │   ├── database-tool.txt     # 数据库管理工具路径
-|   │   ├── cms.txt         # CMS 特征路径
-|   │   ├── config-leak.txt # 配置文件泄露路径
-|   │   ├── vcs.txt         # 版本控制泄露路径
-|   │   ├── springboot.txt  # SpringBoot 特征路径
-|   │   └── china-systems.txt     # 国产系统特征路径
-|   │
-|   ├── api/                # API 端点字典
-|   │   ├── common.txt      # 通用 API 端点
-|   │   └── china-cloud.txt # 国内云服务商 API
-|   │
-|   └── backup/             # 备份文件字典
-|       └── patterns.txt    # 备份文件命名模式
-|
-└── README.md
+```
+
+## Capability catalog & release
+
+本仓库是 repository-orchestration-v2 的 `dictionary` 能力仓。发布门禁：
+
+- 每个 `.txt` 文件对应一个稳定能力 ID，格式为 `<dir>-<basename>`（如 `username-top100`）。
+- `capabilities/catalog-v1.json` 仅包含 provenance 审批为 `accepted` 的资产；当前全部资产处于 `held` 待审状态，因此 catalog 为空。
+- 发布候选通过 `scripts/stage_release.py --calver YYYY.MM.DD.N` 生成，包含 catalog、schema、LICENSE、NOTICE、provenance 与按 ID 获取的字典。
+- 消费者用 `scripts/fetch_dict.py --release releases/YYYY.MM.DD.N --id username-top100 --output /tmp/out.txt` 按能力 ID 获取字典。
+
+本地门禁：
+
+```bash
+python scripts/validate_dict.py
+python scripts/secret_scan.py --tree .
+python scripts/test_dict.py
+python scripts/generate_catalog.py --write
+python scripts/stage_release.py --calver 2026.08.10.1
+shasum -a 256 -c releases/2026.08.10.1/SHA256SUMS
 ```
 ## 使用建议
 | 场景 | 推荐字典 | 说明 |

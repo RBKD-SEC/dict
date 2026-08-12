@@ -182,7 +182,6 @@ active
 adidas
 admin1
 admin12
-admin1234
 admin12345
 admin123456
 admin2
@@ -305,7 +304,6 @@ banana
 bandit
 barbara
 barcelona
-baseball
 basket
 basketball
 batman
@@ -621,7 +619,6 @@ dorothy
 double
 doug
 douglas
-dragon
 dragons
 dream
 dreamer
@@ -712,7 +709,6 @@ flyer
 fonda
 fools
 footbal
-football
 ford
 forest
 forever
@@ -1041,7 +1037,6 @@ leslie
 lestat
 lester
 letter
-letmein
 lexus
 liberty
 life
@@ -1111,7 +1106,6 @@ marty
 marvin
 mary
 maryjane
-master
 master1
 matthew
 maverick
@@ -1165,7 +1159,6 @@ momo
 money
 money1
 monica
-monkey
 monroe
 monster
 montana
@@ -1266,7 +1259,6 @@ parrot
 partner
 pass
 passion
-password
 password12
 patrick
 patriot
@@ -1320,7 +1312,6 @@ precious
 presto
 pretty
 prince
-princess
 princeton
 private
 prodigy
@@ -1340,7 +1331,6 @@ q1w2e3
 q1w2e3r4
 qaz
 qaz123
-qazwsx
 qazwsx123
 qazwsxedc
 qazxsw
@@ -1350,11 +1340,8 @@ qweasd
 qweasdzxc
 qwer
 qwert
-qwerty
 qwerty1
 qwerty12
-qwerty123
-qwerty1234
 qwerty12345
 qwerty123456
 qwertyuiop
@@ -1472,7 +1459,6 @@ serena
 sergei
 seven
 seven7
-shadow
 shadows
 shalom
 shane
@@ -1620,7 +1606,6 @@ sunday
 sunny
 sunrise
 sunset
-sunshine
 super
 superman
 supers
@@ -1779,7 +1764,6 @@ weed
 weed420
 weekend
 weenie
-welcome
 wendy
 wesley
 western

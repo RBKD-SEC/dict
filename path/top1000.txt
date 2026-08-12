@@ -392,7 +392,6 @@ admin_elasticsearch
 admin_graylog
 admin_kibana
 admin_patator
-admin_patator
 admin_scanner
 admin_switch
 admin_zookeeper
@@ -410,7 +409,6 @@ jeecg/actuator
 api/webapi
 api/json
 api/xml
-webapi/v3
 datastore
 datastore/v1
 datastore/v2
@@ -557,7 +555,6 @@ api/notify
 api/webhook
 api/callback
 api/hook
-api/event
 api/stream
 api/pubsub
 api/publish
@@ -567,7 +564,6 @@ api/producer
 api/broker
 api/exchange
 api/topic
-api/queue
 api/channel
 api/connection
 api/pool

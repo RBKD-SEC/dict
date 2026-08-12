@@ -221,7 +221,6 @@ fiberhomehg2x0
 gepon
 sa
 weblogic
-oracle
 db2
 informix
 sybase
@@ -271,20 +270,16 @@ swarm
 istio
 linkerd
 envoy
-nginx
 haproxy
 traefik
 varnish
 squid
-apache
-tomcat
 jetty
 undertow
 wildfly
 jboss
 glassfish
 websphere
-weblogic
 resin
 coldfusion
 iis
@@ -307,7 +302,6 @@ bash
 zsh
 powershell
 batch
-sql
 plsql
 tsql
 nosql
@@ -399,9 +393,3 @@ flux
 razor
 witnet
 nest
-chainlink
-band
-api3
-pyth
-redstone
-umbrella
