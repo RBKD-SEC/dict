@@ -1,0 +1,666 @@
+{
+  "assets": [
+    {
+      "content_digest": "sha256:b184325339587a7ce3d11f5952643c8288b0f726b246ed5479c228046cc8df4f",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "api/china-cloud.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-api-china-cloud-b1843253",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:a81e3ddbe8e05db57d4a5cd2db7cd749c1e10483213168d21262ace70dfa3463",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "api/common.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-api-common-a81e3ddb",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:d925e65a3dc616ea6b379b8d21f0567b3c731c4d36d186bc300049c957f2cb3f",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "backup/patterns.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-backup-patterns-d925e65a",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:e90e960651932785982be2e6680603813c5a520ea047cae5f79b6523e90fc8db",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "password/china-default.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-password-china-default-e90e9606",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:47a80f6eba993f6a3a8057534083531500fbe95332129b521d209ca1562986b2",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "password/common.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-password-common-47a80f6e",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:b41bce7f502129e682dc1d38af05c861c70516d19d8644562b3cf209b95e4934",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "password/keyboard-pattern.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-password-keyboard-pattern-b41bce7f",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:19989ffab5c5914896e55d5f21a0478f79b0a37d063fa5429c0c0cdcb356938f",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "password/top100.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-password-top100-19989ffa",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:62771f5752a0075b636d9c14ec217b4aaa361fab33ddfa9e0b778c7a79d5a481",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "password/top500.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-password-top500-62771f57",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:fb8829c2a523b4cff7fe7fb17c2b54980051711ed85497640ca689561026b10c",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/actuator.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-actuator-fb8829c2",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:786680ac8deb8ccba6016b4d68feb01d58683cfa7afd9b41232b92fabfbc39e9",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/admin-panel-low-noise.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-admin-panel-low-noise-786680ac",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:be00ae8a430e31143dba75bcb8c97b533a4ee8af1e233197c879f5dca65b4106",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/admin-panel.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-admin-panel-be00ae8a",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:a6130404c11e5f9e64f127d89e50e994d79cdb8ce178eb6b6ca91a6c772e2c68",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/china-systems.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-china-systems-a6130404",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:30789a981e17bee5c5742c206a22c5065e19368552560f174e3891b03c00d2b9",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/cms.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-cms-30789a98",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:a2f42e5b720a1b9727173e597e3fb405ccdd29739886ea60a241c9d27b2424a5",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/common.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-common-a2f42e5b",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:07b3e75894a32668ca3bd8fef2add34894f84a567d059eeb5b8c9c93f94c82ef",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/config-leak.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-config-leak-07b3e758",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:03ed59a59ed4610281cf2813afb3a14be4a5cabb8963993940cccf28371f2664",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/database-tool.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-database-tool-03ed59a5",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:a8da96639c416bb97d9afca4ab7720be44dca4c5d9077254347c1750cd51a48d",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/debug-low-noise.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-debug-low-noise-a8da9663",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:5aa63f5224eb449e98d79b067a220abbc3259eb736ccb11ffb4d04715df5af86",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/sensitive-files-low-noise.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-sensitive-files-low-noise-5aa63f52",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:8b75cd4e7d492d2cbd7b82f35b57f064839ee0f0905bc09c3fc623074a560bad",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/springboot.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-springboot-8b75cd4e",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:4fd3125ffa33ff1e17901a89ce1585f1b08cfa6ae69a57d30df2a8e0bd1d8cea",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/src-low-noise.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-src-low-noise-4fd3125f",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:db3ac1baa76cd5ff08233478522f4191e4479b9b052e27ed8fc9627288a09dc3",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/swagger.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-swagger-db3ac1ba",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:9f904689f5791f609b038ab45941192d8968277a25131c98486fa960055b4971",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/top100.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-top100-9f904689",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:cc0643d7b62f485ec721de001894c593f2f34f3c9d162859dd7c985c80c0c50c",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/top1000.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-top1000-cc0643d7",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:04ee40347ec9edeaec5c584eb00589fdb168956768f40f2f1029d8289401b0bb",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/top500.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-top500-04ee4034",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:65cd47481fb68271194f7d3430c4376ed700ca48708cba956a092848c66be654",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "path/vcs.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-path-vcs-65cd4748",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:9734239fe4499f674ff91eb1ccc03147ac81bfccd125d37f5d6e9b4d1b71fe83",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/china-systems.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-china-systems-9734239f",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:fdbde3af64b948a8ef97b8a440715c1d3829f09a3cfc176916f59c1c9fe4c2ff",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/common.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-common-fdbde3af",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:37ff610016cad2edaf421899c2b49b40c0f8f415264b69a1ba5716f66cb99d41",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/database.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-database-37ff6100",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:7fdc14aaf517cf1b99b216c268b8037eef6c3f8fb2ea2280a53b6909fd06e214",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/devops.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-devops-7fdc14aa",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:e356f3eda7f2d26fb7c18f02aa0dbffa22b7cc7ebc3ee2e89863291dedb0781b",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/network-device.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-network-device-e356f3ed",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:fdd8642060ebbebad2185d8b515932c85cbcc9a829a34f27111cc08fd12ebaf9",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/security-tools.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-security-tools-fdd86420",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:4c6a6a38d34fad1fe81cd8cf7f03fc7bcb99b85971e65aa4dd3e443fc2747559",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/top100.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-top100-4c6a6a38",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    },
+    {
+      "content_digest": "sha256:383d20a57374a9767ba1616fd268c02d541eec32586889c78ff7fade66fd212b",
+      "contributor_authority": "unknown",
+      "decision": "held",
+      "destination": "username/top500.txt",
+      "modifications": "",
+      "origin_class": "unknown",
+      "provenance_id": "prov-dict-username-top500-383d20a5",
+      "reason": "pending maintainer provenance review",
+      "required_notices": [],
+      "reviewer": null,
+      "rights_basis": "unknown",
+      "source": {
+        "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "path": "unknown",
+        "revision": "unknown",
+        "url": "https://unknown"
+      },
+      "spdx": "LicenseRef-UNKNOWN"
+    }
+  ],
+  "repository": "dict",
+  "schema_version": 1
+}

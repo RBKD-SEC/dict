@@ -1,0 +1,30 @@
+name: dict-gates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install jsonschema
+
+      - name: Validate dict gates
+        run: python scripts/validate_dict.py
+
+      - name: Secret scan
+        run: python scripts/secret_scan.py --tree .
+
+      - name: Run tests
+        run: python scripts/test_dict.py
