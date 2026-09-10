@@ -1,0 +1,5 @@
+123456
+redis
+password
+foobared
+root

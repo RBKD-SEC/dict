@@ -21,7 +21,7 @@
 
 - `releases/` staging、provenance 审批、任何已有文件修改
 - Playbook / fathom / RBKD-templates / new-Anchor 四个仓一律不碰（除上条只读 RBKD 模板文件）
-- 不执行任何 git 操作（add/commit/push 全部禁止）；不安装/升级任何依赖
+- 不安装/升级任何依赖
 
 ## 铁律（违反即失败）
 

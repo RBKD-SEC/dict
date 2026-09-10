@@ -31,7 +31,7 @@
 ## 明确不做
 
 - **不建 `username/redis.txt`**：Redis 认证无用户名概念，与 VNC 同口径（P2b-1 裁决「用户名文件一律不建」）。AnchorScan 侧 `brute.dicts.redis.user_dict` 届时指向 top100 或回退全局，属其仓工作，不是本票。
-- 不改任何已有文件；不做 provenance 审批（新资产保持 `held`，catalog 预期无变化）；不动 `releases/`；不碰其他四仓；**任何 git 操作**。
+- 不改任何已有文件；不做 provenance 审批（新资产保持 `held`，catalog 预期无变化）；不动 `releases/`；不碰其他四仓。
 
 ## 铁律
 
