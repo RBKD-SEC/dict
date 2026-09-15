@@ -1,3 +1,4 @@
 anonymous
 admin
 root
+ftpuser

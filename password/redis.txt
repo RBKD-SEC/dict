@@ -3,3 +3,7 @@ redis
 password
 foobared
 root
+redis123
+qwerty123
+letmein
+1qaz2wsx

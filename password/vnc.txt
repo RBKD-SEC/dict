@@ -6,3 +6,5 @@ admin
 vnc123
 12345678
 root
+toor
+qwerty123

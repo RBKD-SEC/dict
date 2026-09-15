@@ -1,3 +1,7 @@
 123456
 admin
 password
+lab
+qwerty
+welcome
+1234567890
