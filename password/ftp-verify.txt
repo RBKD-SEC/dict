@@ -1,0 +1,5 @@
+anonymous
+admin
+123456
+ftp123
+qwerty
