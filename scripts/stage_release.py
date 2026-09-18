@@ -79,15 +79,24 @@ def stage(calver):
     shutil.copy2(dl.ROOT / "LICENSE", release_dir / "LICENSE")
     shutil.copy2(dl.ROOT / "NOTICE", release_dir / "NOTICE")
 
-    # rights report
+    # rights report（按 provenance 实况生成；2026-09-18 起 catalog 非空）
+    counts = {}
+    for a in provenance.get("assets", []):
+        counts[a.get("decision", "held")] = counts.get(a.get("decision", "held"), 0) + 1
     report = [
         f"# dict {calver} Rights and Provenance Report",
         "",
         f"Release: `{calver}`",
         f"Prepared: {datetime.now(timezone.utc).isoformat()}",
         "",
-        "All dictionary assets in this release are currently held pending "
-        "maintainer/rights-officer provenance review. The public catalog is therefore empty.",
+        f"Asset decisions in this release: {counts.get('accepted', 0)} accepted, "
+        f"{counts.get('held', 0)} held, {counts.get('rejected', 0)} rejected "
+        f"(see `rights/provenance.json`).",
+        "",
+        "The public catalog includes accepted-only wordlists. 2026-09-18: held assets "
+        "were accepted per owner instruction in the 2026-09-18 session (unfreeze capability "
+        "catalogs); recorded verbatim by agent, not a maintainer self-review; internal-use "
+        "acceptance, public redistribution to be assessed separately.",
         "",
         "See `rights/provenance.json` for per-asset status.",
         ""

@@ -45,7 +45,7 @@ def build_catalog():
             "path": rel,
             "contract": {
                 "target_types": ["wordlist"],
-                "inputs": [],
+                "inputs": ["wordlist"],
                 "positive_evidence": "lines are candidate strings for the documented use",
                 "negative_or_failure": "empty or malformed file",
                 "interface_version": "dict-v1",

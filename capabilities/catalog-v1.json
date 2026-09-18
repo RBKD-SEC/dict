@@ -1,5 +1,1746 @@
 {
-  "capabilities": [],
+  "capabilities": [
+    {
+      "components": [],
+      "content_digest": "sha256:b184325339587a7ce3d11f5952643c8288b0f726b246ed5479c228046cc8df4f",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 46,
+          "use": "api-endpoint-discovery"
+        }
+      },
+      "id": "api-china-cloud",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "api/china-cloud.txt",
+      "provenance_id": "prov-dict-api-china-cloud-txt-b1843253",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:a81e3ddbe8e05db57d4a5cd2db7cd749c1e10483213168d21262ace70dfa3463",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 117,
+          "use": "api-endpoint-discovery"
+        }
+      },
+      "id": "api-common",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "api/common.txt",
+      "provenance_id": "prov-dict-api-common-txt-a81e3ddb",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:d925e65a3dc616ea6b379b8d21f0567b3c731c4d36d186bc300049c957f2cb3f",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 128,
+          "use": "backup-file-discovery"
+        }
+      },
+      "id": "backup-patterns",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "backup/patterns.txt",
+      "provenance_id": "prov-dict-backup-patterns-txt-d925e65a",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:e90e960651932785982be2e6680603813c5a520ea047cae5f79b6523e90fc8db",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 90,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-china-default",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/china-default.txt",
+      "provenance_id": "prov-dict-password-china-default-txt-e90e9606",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:47a80f6eba993f6a3a8057534083531500fbe95332129b521d209ca1562986b2",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 97,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-common",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/common.txt",
+      "provenance_id": "prov-dict-password-common-txt-47a80f6e",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:4ed8d43c1bf6487b071eacc7079eaa6180e771917895f704a00e9b942c536db1",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 5,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-ftp-verify",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/ftp-verify.txt",
+      "provenance_id": "prov-dict-password-ftp-verify-txt-4ed8d43c",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:323ad980dc2cc8e1f8a15c0b501b0039ef308fe20df407995931a824ea0758a6",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 7,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-ftp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/ftp.txt",
+      "provenance_id": "prov-dict-password-ftp-txt-323ad980",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:b41bce7f502129e682dc1d38af05c861c70516d19d8644562b3cf209b95e4934",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 19,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-keyboard-pattern",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/keyboard-pattern.txt",
+      "provenance_id": "prov-dict-password-keyboard-pattern-txt-b41bce7f",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:fdc560856d8bfe569c317e216fbc1dc25d0e3aa7f28ecbdded3afac9aa3afacf",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 7,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-mssql",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/mssql.txt",
+      "provenance_id": "prov-dict-password-mssql-txt-fdc56085",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:3569a65e00ede9d077a2ff4d229a05b3e9cbdc3112bb3ce6f7baab632eb5d357",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 6,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-mysql",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/mysql.txt",
+      "provenance_id": "prov-dict-password-mysql-txt-3569a65e",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:1abaee0ae5e398c232e1b3d60e8373dbac23f79072d981bffd9020eeae6bf981",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-oracle",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/oracle.txt",
+      "provenance_id": "prov-dict-password-oracle-txt-1abaee0a",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:efc2f63781bb25316f1705b6bf34ebbdf60145271272c47b336113f0dd1477a0",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-rdp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/rdp.txt",
+      "provenance_id": "prov-dict-password-rdp-txt-efc2f637",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:3bc967859546de3d7c2cdfb84a1138cce5123d7502af101b3107b7f5a2d6b8c7",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 9,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-redis",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/redis.txt",
+      "provenance_id": "prov-dict-password-redis-txt-3bc96785",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:7885988c399a14da6aba7ea9aff6dd5732f3f25b5c4febfe0b9cdf3defefaa58",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 7,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-smb",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/smb.txt",
+      "provenance_id": "prov-dict-password-smb-txt-7885988c",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:39d70d5125062be848e5fe36219162d9a0f36163b8d54482f26abc5a4f9de02a",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 5,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-smtp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/smtp.txt",
+      "provenance_id": "prov-dict-password-smtp-txt-39d70d51",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:f68a4792537c29f847f6fac7bb902222acc2729c381157b08f15c5961c822ead",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 5,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-ssh-verify",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/ssh-verify.txt",
+      "provenance_id": "prov-dict-password-ssh-verify-txt-f68a4792",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:866f09ea47f16b00c683a4cd107147f2a501ab3f9b5bb003c38b136089fd8dfa",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 7,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-ssh",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/ssh.txt",
+      "provenance_id": "prov-dict-password-ssh-txt-866f09ea",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:bf0dffc8d806b946c8be9ea4c555ddf8feef8479125ec5c5d2759cee9c8b74f9",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 4,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-telnet-verify",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/telnet-verify.txt",
+      "provenance_id": "prov-dict-password-telnet-verify-txt-bf0dffc8",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:4fa9b9f02020c8612a4836e4de7ba6ac542c8e296c01215c0f823ec0403ee05f",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 5,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-telnet",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/telnet.txt",
+      "provenance_id": "prov-dict-password-telnet-txt-4fa9b9f0",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:19989ffab5c5914896e55d5f21a0478f79b0a37d063fa5429c0c0cdcb356938f",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 91,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-top100",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/top100.txt",
+      "provenance_id": "prov-dict-password-top100-txt-19989ffa",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:62771f5752a0075b636d9c14ec217b4aaa361fab33ddfa9e0b778c7a79d5a481",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 1840,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-top500",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/top500.txt",
+      "provenance_id": "prov-dict-password-top500-txt-62771f57",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:d184e8630781a8f1ca69fe94040ae4ed064606c4eec8bd91e3f4c6e0e16d2a53",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 10,
+          "use": "password-spray"
+        }
+      },
+      "id": "password-vnc",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "password/vnc.txt",
+      "provenance_id": "prov-dict-password-vnc-txt-d184e863",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:fb8829c2a523b4cff7fe7fb17c2b54980051711ed85497640ca689561026b10c",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 22,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-actuator",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/actuator.txt",
+      "provenance_id": "prov-dict-path-actuator-txt-fb8829c2",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:786680ac8deb8ccba6016b4d68feb01d58683cfa7afd9b41232b92fabfbc39e9",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 24,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-admin-panel-low-noise",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/admin-panel-low-noise.txt",
+      "provenance_id": "prov-dict-path-admin-panel-low-noise-txt-786680ac",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:be00ae8a430e31143dba75bcb8c97b533a4ee8af1e233197c879f5dca65b4106",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 33,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-admin-panel",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/admin-panel.txt",
+      "provenance_id": "prov-dict-path-admin-panel-txt-be00ae8a",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:a6130404c11e5f9e64f127d89e50e994d79cdb8ce178eb6b6ca91a6c772e2c68",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 48,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-china-systems",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/china-systems.txt",
+      "provenance_id": "prov-dict-path-china-systems-txt-a6130404",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:30789a981e17bee5c5742c206a22c5065e19368552560f174e3891b03c00d2b9",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 24,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-cms",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/cms.txt",
+      "provenance_id": "prov-dict-path-cms-txt-30789a98",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:a2f42e5b720a1b9727173e597e3fb405ccdd29739886ea60a241c9d27b2424a5",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 49,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-common",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/common.txt",
+      "provenance_id": "prov-dict-path-common-txt-a2f42e5b",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:07b3e75894a32668ca3bd8fef2add34894f84a567d059eeb5b8c9c93f94c82ef",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 18,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-config-leak",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/config-leak.txt",
+      "provenance_id": "prov-dict-path-config-leak-txt-07b3e758",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:03ed59a59ed4610281cf2813afb3a14be4a5cabb8963993940cccf28371f2664",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 35,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-database-tool",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/database-tool.txt",
+      "provenance_id": "prov-dict-path-database-tool-txt-03ed59a5",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:a8da96639c416bb97d9afca4ab7720be44dca4c5d9077254347c1750cd51a48d",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 27,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-debug-low-noise",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/debug-low-noise.txt",
+      "provenance_id": "prov-dict-path-debug-low-noise-txt-a8da9663",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:5aa63f5224eb449e98d79b067a220abbc3259eb736ccb11ffb4d04715df5af86",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 30,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-sensitive-files-low-noise",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/sensitive-files-low-noise.txt",
+      "provenance_id": "prov-dict-path-sensitive-files-low-noise-txt-5aa63f52",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:8b75cd4e7d492d2cbd7b82f35b57f064839ee0f0905bc09c3fc623074a560bad",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 26,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-springboot",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/springboot.txt",
+      "provenance_id": "prov-dict-path-springboot-txt-8b75cd4e",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:4fd3125ffa33ff1e17901a89ce1585f1b08cfa6ae69a57d30df2a8e0bd1d8cea",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 116,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-src-low-noise",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/src-low-noise.txt",
+      "provenance_id": "prov-dict-path-src-low-noise-txt-4fd3125f",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:db3ac1baa76cd5ff08233478522f4191e4479b9b052e27ed8fc9627288a09dc3",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 13,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-swagger",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/swagger.txt",
+      "provenance_id": "prov-dict-path-swagger-txt-db3ac1ba",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:9f904689f5791f609b038ab45941192d8968277a25131c98486fa960055b4971",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 83,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-top100",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/top100.txt",
+      "provenance_id": "prov-dict-path-top100-txt-9f904689",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:cc0643d7b62f485ec721de001894c593f2f34f3c9d162859dd7c985c80c0c50c",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 624,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-top1000",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/top1000.txt",
+      "provenance_id": "prov-dict-path-top1000-txt-cc0643d7",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:04ee40347ec9edeaec5c584eb00589fdb168956768f40f2f1029d8289401b0bb",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 314,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-top500",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/top500.txt",
+      "provenance_id": "prov-dict-path-top500-txt-04ee4034",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:65cd47481fb68271194f7d3430c4376ed700ca48708cba956a092848c66be654",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 11,
+          "use": "path-discovery"
+        }
+      },
+      "id": "path-vcs",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "path/vcs.txt",
+      "provenance_id": "prov-dict-path-vcs-txt-65cd4748",
+      "replacement": null,
+      "requires": [],
+      "safety": "safe"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:9734239fe4499f674ff91eb1ccc03147ac81bfccd125d37f5d6e9b4d1b71fe83",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 60,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-china-systems",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/china-systems.txt",
+      "provenance_id": "prov-dict-username-china-systems-txt-9734239f",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:fdbde3af64b948a8ef97b8a440715c1d3829f09a3cfc176916f59c1c9fe4c2ff",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 86,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-common",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/common.txt",
+      "provenance_id": "prov-dict-username-common-txt-fdbde3af",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:37ff610016cad2edaf421899c2b49b40c0f8f415264b69a1ba5716f66cb99d41",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 39,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-database",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/database.txt",
+      "provenance_id": "prov-dict-username-database-txt-37ff6100",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:7fdc14aaf517cf1b99b216c268b8037eef6c3f8fb2ea2280a53b6909fd06e214",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 47,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-devops",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/devops.txt",
+      "provenance_id": "prov-dict-username-devops-txt-7fdc14aa",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:44f5e0ea6a6ed886716294de63c4266af2cef887a5e2239a1445a7e16e25d90b",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 4,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-ftp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/ftp.txt",
+      "provenance_id": "prov-dict-username-ftp-txt-44f5e0ea",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:991fb0a7d521b8dada90c0331a13c90a63119c022a0abfa0ebd82a67c28d37c5",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 2,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-mssql",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/mssql.txt",
+      "provenance_id": "prov-dict-username-mssql-txt-991fb0a7",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:45493e74143015da5bae1c8274935fc97cc7b61df0df1fd00d5c4d73332119f9",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-mysql",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/mysql.txt",
+      "provenance_id": "prov-dict-username-mysql-txt-45493e74",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:e356f3eda7f2d26fb7c18f02aa0dbffa22b7cc7ebc3ee2e89863291dedb0781b",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 6,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-network-device",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/network-device.txt",
+      "provenance_id": "prov-dict-username-network-device-txt-e356f3ed",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:675f75ca62e1271351c3977e24685e9c0a40e8fdb7f982922168d8f027b6e41d",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-oracle",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/oracle.txt",
+      "provenance_id": "prov-dict-username-oracle-txt-675f75ca",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:bad5bef2844c4630ca0c3b0799eee75def444c2ff4f9091a479e515c7dd15682",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-rdp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/rdp.txt",
+      "provenance_id": "prov-dict-username-rdp-txt-bad5bef2",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:38c01e7ecce575ee99a0eb65337e405b3a5122bc2d72a00c1c69518adfb0dbee",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 1,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-redis",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/redis.txt",
+      "provenance_id": "prov-dict-username-redis-txt-38c01e7e",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:fdd8642060ebbebad2185d8b515932c85cbcc9a829a34f27111cc08fd12ebaf9",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 29,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-security-tools",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/security-tools.txt",
+      "provenance_id": "prov-dict-username-security-tools-txt-fdd86420",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:81e07c14da9a36de40162edefc63df613a8a1c444f4f79ac77420c8303afb03e",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 4,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-smb",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/smb.txt",
+      "provenance_id": "prov-dict-username-smb-txt-81e07c14",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:74b3d3a5510e64792ece0df4aefc33e860bdb89ab3ac66769084cdf10b48891e",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 2,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-smtp",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/smtp.txt",
+      "provenance_id": "prov-dict-username-smtp-txt-74b3d3a5",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:137991f07e4a513a6054e6fb08afd0dc32d1d1e37f810e7f85dce176c1946df7",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-ssh",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/ssh.txt",
+      "provenance_id": "prov-dict-username-ssh-txt-137991f0",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:6717f4e4a78dbbc80faff432479e3549b3acc01238896757c888ba618150d1c2",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 2,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-telnet",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/telnet.txt",
+      "provenance_id": "prov-dict-username-telnet-txt-6717f4e4",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:4c6a6a38d34fad1fe81cd8cf7f03fc7bcb99b85971e65aa4dd3e443fc2747559",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 99,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-top100",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/top100.txt",
+      "provenance_id": "prov-dict-username-top100-txt-4c6a6a38",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:383d20a57374a9767ba1616fd268c02d541eec32586889c78ff7fade66fd212b",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 395,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-top500",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/top500.txt",
+      "provenance_id": "prov-dict-username-top500-txt-383d20a5",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    },
+    {
+      "components": [],
+      "content_digest": "sha256:6563132c6f1baddf83daa832fdb84b9319da2093f8ba24670234fc5e9bb13d78",
+      "contract": {
+        "inputs": [
+          "wordlist"
+        ],
+        "interface_version": "dict-v1",
+        "negative_or_failure": "empty or malformed file",
+        "positive_evidence": "lines are candidate strings for the documented use",
+        "target_types": [
+          "wordlist"
+        ]
+      },
+      "extensions": {
+        "rbkd": {
+          "encoding": "utf-8",
+          "line_count": 3,
+          "use": "username-enumeration"
+        }
+      },
+      "id": "username-vnc",
+      "kind": "dictionary",
+      "lifecycle": "active",
+      "path": "username/vnc.txt",
+      "provenance_id": "prov-dict-username-vnc-txt-6563132c",
+      "replacement": null,
+      "requires": [],
+      "safety": "optional"
+    }
+  ],
   "repository": "dict",
   "schema_version": 1
 }
