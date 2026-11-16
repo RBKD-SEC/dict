@@ -1,7 +1,4 @@
 anonymous
+ftp
 admin
 123456
-ftp123
-qwerty
-welcome
-1qaz2wsx

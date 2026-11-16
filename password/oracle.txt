@@ -1,3 +1,3 @@
-oracle
+manager
+change_on_install
 tiger
-123456

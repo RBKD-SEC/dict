@@ -1,7 +1,4 @@
 root
 admin
-lab
-1234567890
-qwerty
-Password1
-letmein
+123456
+password

@@ -1,7 +1,4 @@
 123456
 admin
+P@ssw0rd
 password
-lab
-qwerty
-welcome
-1234567890

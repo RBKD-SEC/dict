@@ -1,7 +1,4 @@
 sa
 123456
 P@ssw0rd
-P@ssw0rd123
-Admin123
-Passw0rd!
-qwerty123
+Password1

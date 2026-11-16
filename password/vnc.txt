@@ -1,10 +1,5 @@
 123456
 password
-vnc
-admin
 1234
-vnc123
-12345678
-root
-toor
-qwerty123
+admin
+vnc
